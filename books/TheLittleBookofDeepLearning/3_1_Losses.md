@@ -26,7 +26,6 @@ $$
 \mathscr{L}_{ce}(w)=-\frac{1}{N}\sum_{n=1}^{N}\log \hat{P}(Y=y_n\ |\ X=x_n)
 $$
 
-
 ![image-20230618123222528](media1/image-20230618123222528.png)
 
 #### Contrastive loss
