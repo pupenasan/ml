@@ -1,15 +1,22 @@
 [<---   1.3 Недостатнє навчання та перенавчання](1_3_Under_and_overfitting.md)         [Зміст](README.md)          [2__Efficient_computation.md    --->](2__Efficient_computation.md) 
 
-## 1.4    Categories of models
+## 1.4    Категорії моделей
 
-We can organize the use of machine learning models into three broad categories:
+Ми можемо розділити використання моделей машинного навчання на три великі категорії:
 
-- **Regression** consists of predicting a continuous-valued vector $y ∈ R^K$, for instance, a geometrical position of an object, given an input signal $X$. This is a multi-dimensional generalization of the setup we saw in [§1.2](1_2_Basis_function_regression.md). The training set is composed of pairs of an input signal and a **ground-truth** value.
-- **Classification** aims at predicting a value from a finite set $\{1,...,C\}$, for instance, the label $Y$ of
-  an image $X$. As for regression, the training set is composed of pairs of input signal, and groundtruth quantity, here a label from that set. The standard way of tackling this is to predict one score per potential class, such that the correct class has the maximum score.
-- **Density modeling** has as its objective to model the probability density function of the data $μ_X$ itself, for instance, images. In that case, the training set is composed of values $x_n$ without associated quantities to predict, and the trained model should allow either the evaluation of the probability density function, or sampling from the distribution, or both.
+- **Регресія (Regression)** складається з прогнозування безперервного вектора $y ∈ R^K$, наприклад положення об’єкта в площині чи просторі, за вхідним сигналом $X$. Це багатовимірне узагальнення установки, яке ми бачили в [§1.2](1_2_Basis_function_regression.md). Навчальний набір складається з пар вхідного сигналу та значення **фундаментальної істини (ground-truth)**.
+- **Classification (Класифікація)** спрямована на передбачення конкретного значення мітки $Y$ зі скінченного набору пропозицій $\{1,...,C\}$ за відображенням $X$. Як і в регресії, навчальний набір складається з пар вхідного сигналу та значення фундаментальної істини, яка в даному випадку є міткою для цього набору. Стандартний спосіб вирішити це завдання полягає в тому, щоб надати максимальний бал для правильного передбачувального класу.
+- **Моделювання щільності** має своєю метою змоделювати функцію щільності ймовірності самих даних $μ_X$, наприклад, зображень. У цьому випадку навчальний набір складається зі значень $x_n$ без пов’язаних величин для прогнозування, а навчена модель повинна дозволяти робити оцінку функції щільності ймовірності, або вибирати з розподілу, або обидві.
 
-Both regression and classification are generally referred to as **supervised learning** since the value to be predicted, which is required as a target during training, has to be provided, for instance, by human experts. On the contrary, density modeling is usually seen as **unsupervised learning** since it is sufficient to take existing data, without the need for producing an associated groundtruth.
+Як регресію, так і класифікацію зазвичай називають **навчанням з учителем  (supervised learning)**, оскільки під час навчання у якості цілі наприклад, людьми-експертами, має надаватися прогнозоване значення. Навпаки, моделювання щільності зазвичай розглядається як **навчання без вчителя  (unsupervised learning)**, оскільки достатньо взяти наявні дані без необхідності створювати пов’язану фундаментальну істину.
 
-These three categories are not disjoint; for instance, classification can be cast as class-score regression, or discrete sequence density modeling as iterated classification. Furthermore, they do not cover all cases. One may want to predict compounded quantities, or multiple classes, or model a density conditional on a signal.
+Ці три категорії не розрізняються: наприклад, класифікація може бути відтворена як регресія оцінки класу, а дискретне моделювання щільності послідовності - як ітерована класифікація. Крім того, вони не охоплюють усіх випадків. Хтось може захотіти передбачити складені величини, або кілька класів, або змоделювати щільність залежно від сигналу.
 
+### Від перекладача
+
+- [ground-truth Wiki](https://en.wikipedia.org/wiki/Ground_truth) 
+- [фундаментальна істина Wiki](https://uk.wikipedia.org/wiki/Ground_truth)
+- <https://en.wikipedia.org/wiki/Density_estimation>
+- <https://uk.wikipedia.org/wiki/Оцінка_густини> 
+- <https://uk.wikipedia.org/wiki/Навчання_з_учителем>
+- <https://uk.wikipedia.org/wiki/Навчання_без_учителя>  
