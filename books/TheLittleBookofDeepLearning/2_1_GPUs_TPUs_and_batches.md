@@ -1,13 +1,19 @@
 [<---   2__Efficient_computation.md](2__Efficient_computation.md)         [Зміст](README.md)          [2_2_Tensors.md    --->](2_2_Tensors.md) 
 
-## 2.1  GPUs, TPUs, and batches
+## 2.1  Графічні процесори (GPU), TPU та пакети
 
-Graphical Processing Units were originally designed for real-time image synthesis, which requires highly parallel architectures that happen to be fitting for deep models. As their usage for AI has increased, GPUs have been equipped with dedicated sub-components referred to as **tensor cores**, and deep-learning specialized chips such as Google’s **Tensor Processing Units** (**TPUs**) have been developed.
+Графічні процесори (GPU) спочатку були розроблені для синтезу зображень у реальному часі, що вимагає високопаралельних архітектур, які, як виявилося, підходять для глибоких моделей. Зі збільшенням використання графічних процесорів для штучного інтелекту графічні процесори були оснащені спеціальними субкомпонентами, які називаються **тензорними ядрами (tensor core)**, а також компанією Google були розроблені спеціалізовані чіпи для глибокого навчання - **тензорні блоки обробки** (**Tensor Processing Units, TPU**). 
 
-A GPU possesses several thousands of parallel units, and its own fast memory. The limiting factor is usually not the number of computing units but the **read-write operations to memory**. The slowest link is between the CPU memory and the GPU memory, and consequently one should avoid copying data across devices. Moreover, the structure of the GPU itself involves multiple levels of **cache memory**, which are smaller but faster, and computation should be organized to avoid copies between these different caches.
+Графічний процесор має кілька тисяч паралельних блоків і власну швидку пам'ять. Обмежуючим фактором зазвичай є не кількість обчислювальних блоків, а **операції читання-запису в пам’ять**. Найповільнішим є зв’язок між пам’яттю процесора та пам’яттю графічного процесора, тому слід уникати копіювання даних між пристроями. Крім того, сама структура графічного процесора включає кілька рівнів **кеш-пам’яті**, які є меншими, але швидшими, тому обчислення мають бути організовані так, щоб уникнути копіювання між цими різними кешами.
 
-This is achieved, in particular, by organizing the computation in **batches of samples** that can fit entirely in the GPU memory and are processed in parallel. When an operator combines a sample and model parameters, both have to be moved to the cache memory near the actual computing units. Proceeding by batches allows for copying the model parameters only once, instead of doing it for every sample. In practice, a GPU processes a batch that fits in memory almost as quickly as a single sample.
+Це досягається, зокрема, шляхом організації обчислень у вигляді **пакетів вибірок (batches of samples)**, які можуть повністю поміститися в пам’ять GPU та обробляються паралельно. Коли оператор комбінує азмо параметри вибірки (sample) та моделі, обидва вони повинні бути переміщені в кеш-пам’ять поруч із фактичними обчислювальними блоками. Пакетна робота (proceeding by batches) дозволяє копіювати параметри моделі лише один раз, замість того, щоб робити це для кожної вибірки. На практиці графічний процесор обробляє пакет вибірок, який розміщується в пам’яті, майже так само швидко, як одну вибірку.
 
-A standard GPU has a theoretical **peak performance** of $10^{13}-10^{14}$ floating point operations (**FLOPs**) per second, and its memory typically ranges from 8 to 80 gigabytes. The standard **$FP_{32}$** encoding of float numbers is on 32 bits, but empirical results show that using encoding on 16 bits, or even less for some operands, does not degrade performance. 
+Стандартний графічний процесор має теоретичну **пікову продуктивність** $10^{13}-10^{14}$ операцій з плаваючою комою (**FLOPs**) за секунду, а його пам’ять зазвичай становить від 8 до 80 гігабайт. Стандартне кодування **$FP_{32}$** чисел із плаваючою точкою має 32 біти, але емпіричні результати показують, що використання кодування на 16 біт або навіть менше для деяких операндів не погіршує продуктивність.
 
-We come back in [§ 3.6](3_6_The_benefits_of_scale.md) to the large size of deep architectures.
+Ми повертаємось до великого розміру глибоких архітектур у [§ 3.6](3_6_The_benefits_of_scale.md) .
+
+### Від перекладача
+
+- <https://en.wikipedia.org/wiki/Batch_learning>
+- <https://en.wikipedia.org/wiki/Tensor_Processing_Unit>
+- <https://uk.wikipedia.org/wiki/Тензорний_блок_обробки>

@@ -4,7 +4,9 @@
 
 François Fleuret
 
-У даному розділі міститься конспект, який створений на базі вільного перекладу книги The Little Book of Deep Learning, яку можна завантажити за [цим посиланням](https://fleuret.org/public/lbdl.pdf). Конспект містить усі перекладені розділи з моїми доповненнями. Обговорення даної версії конспекту та [посиланням](https://github.com/pupenasan/ml/issues/3). Ліцензія дозволяє змінювати, перекладати та поширювати книгу.
+У даному розділі міститься конспект, який створений на базі вільного перекладу книги The Little Book of Deep Learning, яку можна завантажити за [цим посиланням](https://fleuret.org/public/lbdl.pdf). Конспект містить усі перекладені розділи з моїми доповненнями. Обговорення даної версії конспекту та [посиланням](https://github.com/pupenasan/ml/issues/3). Ліцензія дозволяє змінювати, перекладати та поширювати книгу. 
+
+Словник термінів [за цим посиланням](../../dictionary.md)
 
 > This book is licensed under the [Creative Commons BY-NC-SA 4.0 International License.](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 > Preprint–June 11, 2023

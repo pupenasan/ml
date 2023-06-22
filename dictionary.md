@@ -32,5 +32,14 @@
 
 **unsupervised learning (навчання без вчителя)**
 
+**Tensor Processing Units, TPU (тензорні блоки обробки)**
 
+**floating point operation (FLOP) - операція з плаваючою комою** 
 
+**tensor (тензор)**
+
+**activations (активаціями)** 
+
+feature (ознаки)
+
+channels (канали) 

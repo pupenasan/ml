@@ -1,18 +1,23 @@
 [<---   2_1_GPUs_TPUs_and_batches.md](2_1_GPUs_TPUs_and_batches.md)         [Зміст](README.md)          [3__Training.md    --->](3__Training.md) 
 
-## 2.2    Tensors
+## 2.2    Тензори
 
-GPUs and **deep learning frameworks** such as Py-Torch or JAX manipulate the quantities to be processed by organizing them as **tensors**, which are series of scalars arranged along several discrete axes. They are elements of $R^{N_1×···×N_D}$ that generalize the notion of vector and matrix.
+Графічні процесори та **фреймворки глибокого навчання (deep learning frameworks)**, такі як Py-Torch або JAX, маніпулюють величинами, що підлягають обробці, організовуючи їх у вигляді **тензорів (tensors)**.  Тензор є послідовністю скалярів (scalars), що розташовані уздовж кількох дискретних осей. Це елементи $R^{N_1×···×N_D}$, які узагальнюють поняття векторів та матриць.
 
-Tensors are used to represent both the signals to process, the **trainable parameters** of the models, and the intermediate quantities they compute. The latters are called **activations**, in reference to
-neuronal activations.
+Тензори використовуються для представлення сигналів що обробляються, **налаштовуваних параметрів (trainable parameters)** моделей а також проміжних обчислювальних величин. Ці роміжні величини називаються **активаціями (activations)** аналогічно до активації нейронів в нейронних мережах.
 
-For instance, a time series is naturally encoded as a $T×D$ tensor, or, for historical reasons, as a $D×T$ tensor, where $T$ is its duration and $D$ is the dimension of the feature representation at every time step, often referred to as the number of **channels**. Similarly a 2D-structured signal can be represented as a $D×H×W$ tensor, where $H$ and $W$ are its width and height. An RGB image would correspond to $D=3$, but the number of channels can grow up to several thousands in large models.
+Наприклад, часовий ряд (time series) природним чином кодується як тензор $T×D$ або, з історичних причин, як тензор $D×T$, де $T$ — це тривалість часового ряду, а $D$ — розмірність ознак (feature) представлених на кожному кроці часу. Розмірність ознак часто називають кількістю **каналів (channels)**. Подібним чином 2D-структурований сигнал можна представити як тензор $D×H×W$, де $H$ і $W$ є його шириною та висотою. Зображення RGB у даному випадку відповідало б ромірності $D=3$.  Кількість каналів (тобто ромзірність ознак) може бути до кількох тисяч у великих моделях.
 
-Adding more dimensions allows for the representation of series of objects. Fifty RGB images of resolution $32×24$ can, for instance, be encoded as a $50×3×24×32$ tensor
+Додавання додаткових розмірів дозволяє відображати серію (series) об’єктів. П’ятдесят зображень RGB із роздільною здатністю $32×24$ можна, наприклад, закодувати як тензор $50×3×24×32$
 
-Deep learning libraries all provide a large number of operations that encompass standard linear algebra, complex reshaping and extraction, and deep-learning specific operations, some of which we will see in [Chapter 4](4__Model_components.md). The implementation of tensors separates the shape representation from the storage layout of the coefficients in memory, which allows many reshaping, transposing, and extraction operations to be done without coefficient copying, hence extremely rapidly.
+Усі бібліотеки глибокого навчання надають велику кількість операцій, які охоплюють стандартну лінійну алгебру, комплексну зміну форми та вилучення (extraction), а також спеціальні операції глибокого навчання, деякі з яких ми побачимо в [главі 4](4__Model_components.md). Реалізація тензорів відокремлює представлення форми від схеми зберігання коефіцієнтів у пам’яті, що дозволяє виконувати багато операцій зміни форми, транспонування та вилучення без копіювання коефіцієнтів, отже, надзвичайно швидко.
 
-In practice, virtually any computation can be decomposed into elementary tensor operations, which avoids non-parallel loops at the language level and poor memory management.
+На практиці практично будь-яке обчислення можна розкласти на елементарні тензорні операції, що дозволяє уникнути непаралельних циклів на рівні мови та поганого керування пам’яттю.
 
-Besides being convenient tools, tensors are instrumental to achieve computational efficiency. All the people involved in the development of an operational deep model, from the designers of the drivers, libraries, and models to those of the computers and chips, know that the data will be manipulated as tensors. The resulting constraints on locality and block decomposability enable all the actors in this chain to come up with optimal designs.
+Окрім того, що тензори є зручними інструментами, вони допомагають досягти ефективності обчислень. Усі люди, які беруть участь у розробці операційної глибокої моделі, від дизайнерів драйверів, бібліотек і моделей до комп’ютерів і чіпів, знають, що даними будуть маніпулювати як тензорами. Результуючі обмеження на локальність і блочну розкладність дозволяють усім учасникам цього ланцюга придумати оптимальні проекти.
+
+### Від перекладача
+
+- <https://uk.wikipedia.org/wiki/Тензор>
+- <https://en.wikipedia.org/wiki/Tensor>
+- <https://uk.m.wikipedia.org/wiki/Ознака_(машинне_навчання)>
