@@ -43,3 +43,5 @@
 feature (ознаки)
 
 channels (канали) 
+
+performance (продуктивність )

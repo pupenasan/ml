@@ -1,5 +1,5 @@
 [<---   2_2_Tensors.md](2_2_Tensors.md)         [Зміст](README.md)          [3_1_Losses.md    --->](3_1_Losses.md) 
 
-# Chapter 3 Training
+# Розділ 3 Тренування
 
-As introduced in [§ 1.1](1_1_Learning_from_data.md), training a model consists of minimizing a loss $\mathscr{L}(w)$ which reflects the performance of the predictor $f(\cdot;w)$ on a **training set** $\mathscr{D}$. Since the models are usually extremely complex, and their performance is directly related to how well the loss is minimized, this minimization is a key challenge, which involves both computational and mathematical difficulties.
+Як зазначено в [§ 1.1](1_1_Learning_from_data.md), тренування моделі полягає в мінімізації втрати $\mathscr{L}(w)$, що відображає продуктивність предиктора $f(\cdot;w)$ на **тренувальному наборі** $\mathscr{D}$. Оскільки моделі, як правило, надзвичайно складні, а їх продуктивність безпосередньо залежить від того, наскільки добре мінімізуються втрати, ця мінімізація є ключовою проблемою, яка включає як обчислювальні, так і математичні труднощі.
