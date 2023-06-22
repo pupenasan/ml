@@ -14,6 +14,8 @@
 
 Ми повертаємось до великого розміру глибоких архітектур у [§ 3.6](3_6_The_benefits_of_scale.md) .
 
+[en](2_1_en.md)
+
 ### Від перекладача
 
 - <https://en.wikipedia.org/wiki/Batch_learning>

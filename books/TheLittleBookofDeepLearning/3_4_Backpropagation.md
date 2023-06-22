@@ -4,7 +4,7 @@
 
 ## 3.4    Backpropagation
 
-Using **gradient descent** requires a technical means to compute $∇𝓁_{|w}(w)$ where $𝓁=L(f(x;w);y)$. Given that $f$ and $L$ are both compositions of standard tensor operations, as for any mathematical expression, the **chain rule** from differential calculus allows us to get an expression of it.
+Using **gradient descent** requires a technical means to compute $∇𝓁_{\mid w}(w)$ where $𝓁=L(f(x;w);y)$. Given that $f$ and $L$ are both compositions of standard tensor operations, as for any mathematical expression, the **chain rule** from differential calculus allows us to get an expression of it.
 
 For the sake of making notation lighter–which, unfortunately, will be needed in what follows-we do not specify at which point gradients are computed, since the context makes it clear. 
 
@@ -26,9 +26,9 @@ with $x^{(D)}$ as the final value.
 
 The individual scalar values of these intermediate results $x^{(d)}$ are traditionally called **activations** in reference to neuron activations, the value $D$ is the **depth** of the model, the individual mappings $f^{(d)}$ are referred to as **layers**, as we will see is [§ 4.1](4_1_The_notion_of_layer.md), and their sequential evaluation is the **forward pass** (see Figure 3.3, top).
 
-Conversely, the gradient $∇𝓁_{|x^{(d−1)}}$ of the loss with respect to the output $x^{(d−1)}$ of $f^{(d−1)}$ is the product of the gradient $∇𝓁_{|x^{(d)}}$ with respect to the output of $f^{(d)}$ multiplied by the Jacobian $J_{f^{(d−1)}|x}$ of $f^{(d−1)}$ with respect to its variable $x$. Thus, the gradients with respect to the outputs of all the $f^{(d)}$s can be computed recursively backward, starting with $∇𝓁_{|x^{(D)}} =∇L_{|x}$.
+Conversely, the gradient $∇𝓁_{\mid x^{(d−1)}}$ of the loss with respect to the output $x^{(d−1)}$ of $f^{(d−1)}$ is the product of the gradient $∇𝓁_{\mid x^{(d)}}$ with respect to the output of $f^{(d)}$ multiplied by the Jacobian $J_{f^{(d−1)} \mid x}$ of $f^{(d−1)}$ with respect to its variable $x$. Thus, the gradients with respect to the outputs of all the $f^{(d)}$s can be computed recursively backward, starting with $∇𝓁_{\mid x^{(D)}} =∇L_{\mid x}$.
 
-And the gradient that we are interested in for training, that is $∇𝓁_{|w_d}$ , is the gradient with respect to the output of $f^{(d)}$ multiplied by the Jacobian $J_{f^{(d)}|w}$ of $f^{(d)}$ with respect to the parameters.
+And the gradient that we are interested in for training, that is $∇𝓁_{\mid w_d}$ , is the gradient with respect to the output of $f^{(d)}$ multiplied by the Jacobian $J_{f^{(d)}\mid w}$ of $f^{(d)}$ with respect to the parameters.
 
 This iterative computation of the gradients with respect to the intermediate activations, combined with that of the gradients with respect to the layers’ parameters, is the **backward pass** (see Figure 3.3, bottom). The combination of this computation with the procedure of gradient descent is called **backpropagation**.
 

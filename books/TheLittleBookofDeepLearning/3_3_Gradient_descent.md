@@ -13,7 +13,7 @@ This procedure corresponds to moving the current estimate a bit in the direction
 
 ![image-20230618134218672](media1/image-20230618134218672.png) 
 
-Figure 3.2: At every point w, the gradient $∇ℒ_{|w}(w)$ is in the direction that maximizes the increase of $ℒ$, orthogonal to the level curves (top). The gradient descent minimizes $ℒ(w)$ iteratively by subtracting a fraction of the gradient at every step, resulting in a trajectory that follows the steepest descent (bottom).
+Figure 3.2: At every point w, the gradient $∇ℒ_{\mid w}(w)$ is in the direction that maximizes the increase of $ℒ$, orthogonal to the level curves (top). The gradient descent minimizes $ℒ(w)$ iteratively by subtracting a fraction of the gradient at every step, resulting in a trajectory that follows the steepest descent (bottom).
 
 #### Learning rate
 

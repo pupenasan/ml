@@ -10,5 +10,5 @@ A **denoising autoencoder** is a model that takes as input a degraded signal $\t
 
 Such a model is trained by collecting a large number of clean samples paired with their degraded inputs. The latter can be captured in degraded conditions, such as low-light or inadequate focus, or generated algorithmically, for instance, by converting the clean sample to grayscale, reducing its size, or compressing it aggressively with a lossy compression method. 
 
-The standard training procedure for denoising autoencoders uses the MSE loss summed across all pixels, in which case the model aims at computing the best average clean picture, given the degraded one, that is $E(X|\tilde{X} )$. This quantity may be problematic when $X$ is not completely determined by $\tilde{X}$ , in which case some parts of the generated signal may be an unrealistic, blurry average.
+The standard training procedure for denoising autoencoders uses the MSE loss summed across all pixels, in which case the model aims at computing the best average clean picture, given the degraded one, that is $E(X\mid \tilde{X} )$. This quantity may be problematic when $X$ is not completely determined by $\tilde{X}$ , in which case some parts of the generated signal may be an unrealistic, blurry average.
 
