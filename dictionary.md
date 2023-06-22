@@ -4,13 +4,13 @@
 
 **capacity model** (**ємність моделі**) - 
 
-**training set (навчальний набір)** - 
+**training set (тренувальний набір)** - 
 
 **trainable parameters (налаштовуванні параметри)** - 
 
 **loss (втрати)** -
 
-**training (навчання)** - 
+**training (тренування)** - 
 
 **weights (ваги)** - 
 
