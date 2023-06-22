@@ -1,4 +1,6 @@
-[<---   3_3_Gradient_descent.md](3_3_Gradient_descent.md)         [Зміст](README.md)          [3_5_Training_protocols.md    --->](3_5_Training_protocols.md) 
+|                                                           |                    |                                                              |
+| --------------------------------------------------------- | ------------------ | ------------------------------------------------------------ |
+| [<---   3_3_Gradient_descent.md](3_3_Gradient_descent.md) | [Зміст](README.md) | [3_5_Training_protocols.md    --->](3_5_Training_protocols.md) |
 
 ## 3.4    Backpropagation
 

@@ -1,4 +1,6 @@
-[<---   7.2    Image generation](7_2_Image_generation.md)         [Зміст](README.md)          [Afterword.md    --->](Afterword.md) 
+|                                                           |                    |                                      |
+| --------------------------------------------------------- | ------------------ | ------------------------------------ |
+| [<---   7.2    Image generation](7_2_Image_generation.md) | [Зміст](README.md) | [Afterword.md    --->](Afterword.md) |
 
 # The missing bits
 

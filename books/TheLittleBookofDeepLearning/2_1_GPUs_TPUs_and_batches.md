@@ -1,4 +1,6 @@
-[<---   2__Efficient_computation.md](2__Efficient_computation.md)         [Зміст](README.md)          [2_2_Tensors.md    --->](2_2_Tensors.md) 
+|                                                              |                    |                                          |
+| ------------------------------------------------------------ | ------------------ | ---------------------------------------- |
+| [<---   2__Efficient_computation.md](2__Efficient_computation.md) | [Зміст](README.md) | [2_2_Tensors.md    --->](2_2_Tensors.md) |
 
 ## 2.1  Графічні процесори (GPU), TPU та пакети
 

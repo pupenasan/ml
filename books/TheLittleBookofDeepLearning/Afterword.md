@@ -1,4 +1,6 @@
-[<---   7_2_Image_generation.md](7_2_Image_generation.md)         [Зміст](README.md)          [Bibliography.md    --->](Bibliography.md) 
+|                                                           |                    |                                            |
+| --------------------------------------------------------- | ------------------ | ------------------------------------------ |
+| [<---   7_2_Image_generation.md](7_2_Image_generation.md) | [Зміст](README.md) | [Bibliography.md    --->](Bibliography.md) |
 
 # Afterword
 

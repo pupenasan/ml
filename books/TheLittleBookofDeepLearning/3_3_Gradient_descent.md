@@ -1,4 +1,6 @@
-[<---   3_2_Autoregressive_models.md](3_2_Autoregressive_models.md)         [Зміст](README.md)          [3_4_Backpropagation.md    --->](3_4_Backpropagation.md) 
+|                                                              |                    |                                                          |
+| ------------------------------------------------------------ | ------------------ | -------------------------------------------------------- |
+| [<---   3_2_Autoregressive_models.md](3_2_Autoregressive_models.md) | [Зміст](README.md) | [3_4_Backpropagation.md    --->](3_4_Backpropagation.md) |
 
 ## 3.3    Gradient descent
 

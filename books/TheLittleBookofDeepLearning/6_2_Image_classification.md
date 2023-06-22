@@ -1,4 +1,6 @@
-[<---   6_1_Image_denoising.md](6_1_Image_denoising.md)         [Зміст](README.md)          [6_3_Object_detection.md    --->](6_3_Object_detection.md) 
+|                                                         |                    |                                                            |
+| ------------------------------------------------------- | ------------------ | ---------------------------------------------------------- |
+| [<---   6_1_Image_denoising.md](6_1_Image_denoising.md) | [Зміст](README.md) | [6_3_Object_detection.md    --->](6_3_Object_detection.md) |
 
 ## 6.2    Image classification
 

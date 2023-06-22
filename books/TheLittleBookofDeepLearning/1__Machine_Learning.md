@@ -1,4 +1,6 @@
-[<---  Передмова ](foreword.md)         [Зміст](README.md)          [1.1 Learning from data   --->](1_1_Learning_from_data.md) 
+|                                 |                    |                                                            |
+| ------------------------------- | ------------------ | ---------------------------------------------------------- |
+| [<---  Передмова ](foreword.md) | [Зміст](README.md) | [1.1 Learning from data   --->](1_1_Learning_from_data.md) |
 
 # Частина I Основи
 

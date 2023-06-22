@@ -1,4 +1,6 @@
-[<---   4__Model_components.md](4__Model_components.md)         [Зміст](README.md)          [4_2_Linear_layers.md    --->](4_2_Linear_layers.md) 
+|                                                         |                    |                                                      |
+| ------------------------------------------------------- | ------------------ | ---------------------------------------------------- |
+| [<---   4__Model_components.md](4__Model_components.md) | [Зміст](README.md) | [4_2_Linear_layers.md    --->](4_2_Linear_layers.md) |
 
 ## 4.1    The notion of layer
 

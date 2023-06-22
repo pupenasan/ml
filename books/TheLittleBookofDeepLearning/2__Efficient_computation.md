@@ -1,4 +1,6 @@
-[<---  1_4_Categories_of_models.md ](1_4_Categories_of_models.md)         [Зміст](README.md)          [2_1_GPUs_TPUs_and_batches.md    --->](2_1_GPUs_TPUs_and_batches.md) 
+|                                                              |                    |                                                              |
+| ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ |
+| [<---  1_4_Categories_of_models.md ](1_4_Categories_of_models.md) | [Зміст](README.md) | [2_1_GPUs_TPUs_and_batches.md    --->](2_1_GPUs_TPUs_and_batches.md) |
 
 # Розділ 2 Ефективне обчислення
 

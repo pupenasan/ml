@@ -1,4 +1,6 @@
-[<---   6_4_Semantic_segmentation.md](6_4_Semantic_segmentation.md)         [Зміст](README.md)          [6_6_Text_image_representations.md    --->](6_6_Text_image_representations.md) 
+|                                                              |                    |                                                              |
+| ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ |
+| [<---   6_4_Semantic_segmentation.md](6_4_Semantic_segmentation.md) | [Зміст](README.md) | [6_6_Text_image_representations.md    --->](6_6_Text_image_representations.md) |
 
 ## 6.5    Speech recognition
 

@@ -1,4 +1,6 @@
-[<---   6_3_Object_detection.md](6_3_Object_detection.md)         [Зміст](README.md)          [6_5_Speech_recognition.md    --->](6_5_Speech_recognition.md) 
+|                                                           |                    |                                                              |
+| --------------------------------------------------------- | ------------------ | ------------------------------------------------------------ |
+| [<---   6_3_Object_detection.md](6_3_Object_detection.md) | [Зміст](README.md) | [6_5_Speech_recognition.md    --->](6_5_Speech_recognition.md) |
 
 ## 6.4    Semantic segmentation
 

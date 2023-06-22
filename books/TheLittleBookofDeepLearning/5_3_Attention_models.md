@@ -1,4 +1,6 @@
-[<---   5_2_Convolutional_networks.md](5_2_Convolutional_networks.md)         [Зміст](README.md)          [6__Prediction.md    --->](6__Prediction.md) 
+|                                                              |                    |                                              |
+| ------------------------------------------------------------ | ------------------ | -------------------------------------------- |
+| [<---   5_2_Convolutional_networks.md](5_2_Convolutional_networks.md) | [Зміст](README.md) | [6__Prediction.md    --->](6__Prediction.md) |
 
 ## 5.3    Attention models
 

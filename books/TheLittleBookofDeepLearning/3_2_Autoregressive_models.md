@@ -1,4 +1,6 @@
-[<---   3_1_Losses.md](3_1_Losses.md)         [Зміст](README.md)          [3_3_Gradient_descent.md    --->](3_3_Gradient_descent.md) 
+|                                       |                    |                                                            |
+| ------------------------------------- | ------------------ | ---------------------------------------------------------- |
+| [<---   3_1_Losses.md](3_1_Losses.md) | [Зміст](README.md) | [3_3_Gradient_descent.md    --->](3_3_Gradient_descent.md) |
 
 ## 3.2    Autoregressive models
 

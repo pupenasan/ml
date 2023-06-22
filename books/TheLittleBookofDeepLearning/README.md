@@ -1,4 +1,6 @@
-[До головної сторінки](../../README.md)
+|                                                |      |                                                   |
+| ---------------------------------------------- | ---- | ------------------------------------------------- |
+| [<<---- До головної сторінки](../../README.md) |      | [Машинне навчання   --->](1__Machine_Learning.md) |
 
 # Маленька книга про глибоке навчання
 
@@ -21,7 +23,7 @@ François Fleuret
 
 ### I Foundations
 
-- 1 [Machine Learning](1__Machine_Learning.md)
+- 1 [Машинне навчання](1__Machine_Learning.md)
   - 1.1 [Learning from data](1_1_Learning_from_data.md)
   - 1.2 [Basis function regression](1_2_Basis_function_regression.md)
   - 1.3 [Under and overfitting](1_3_Under_and_overfitting.md)

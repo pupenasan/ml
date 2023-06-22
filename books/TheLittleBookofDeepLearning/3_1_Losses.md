@@ -1,4 +1,6 @@
-[<---   3__Training.md](3__Training.md)         [Зміст](README.md)          [3_2_Autoregressive_models.md    --->](3_2_Autoregressive_models.md) 
+|                                         |                    |                                                              |
+| --------------------------------------- | ------------------ | ------------------------------------------------------------ |
+| [<---   3__Training.md](3__Training.md) | [Зміст](README.md) | [3_2_Autoregressive_models.md    --->](3_2_Autoregressive_models.md) |
 
 ## 3.1    Losses
 

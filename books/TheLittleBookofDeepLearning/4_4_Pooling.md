@@ -1,4 +1,6 @@
-[<---   4_3_Activation_functions.md](4_3_Activation_functions.md)         [Зміст](README.md)          [4_5_Dropout.md    --->](4_5_Dropout.md) 
+|                                                              |                    |                                          |
+| ------------------------------------------------------------ | ------------------ | ---------------------------------------- |
+| [<---   4_3_Activation_functions.md](4_3_Activation_functions.md) | [Зміст](README.md) | [4_5_Dropout.md    --->](4_5_Dropout.md) |
 
 ## 4.4    Pooling
 

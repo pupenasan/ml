@@ -1,4 +1,6 @@
-[<---   Afterword.md](Afterword.md)         [Зміст](README.md)         
+|                                     |                    |      |
+| ----------------------------------- | ------------------ | ---- |
+| [<---   Afterword.md](Afterword.md) | [Зміст](README.md) |      |
 
 # Bibliography
 

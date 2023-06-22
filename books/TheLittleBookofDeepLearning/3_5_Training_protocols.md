@@ -1,4 +1,6 @@
-[<---   3_4_Backpropagation.md](3_4_Backpropagation.md)         [Зміст](README.md)          [3_6_The_benefits_of_scale.md    --->](3_6_The_benefits_of_scale.md) 
+|                                                         |                    |                                                              |
+| ------------------------------------------------------- | ------------------ | ------------------------------------------------------------ |
+| [<---   3_4_Backpropagation.md](3_4_Backpropagation.md) | [Зміст](README.md) | [3_6_The_benefits_of_scale.md    --->](3_6_The_benefits_of_scale.md) |
 
 ## 3.5    Training protocols
 

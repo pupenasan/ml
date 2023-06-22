@@ -1,4 +1,6 @@
-[<---   3_5_Training_protocols.md](3_5_Training_protocols.md)         [Зміст](README.md)          [4__Model_components.md    --->](4__Model_components.md) 
+|                                                              |                    |                                                          |
+| ------------------------------------------------------------ | ------------------ | -------------------------------------------------------- |
+| [<---   3_5_Training_protocols.md](3_5_Training_protocols.md) | [Зміст](README.md) | [4__Model_components.md    --->](4__Model_components.md) |
 
 ## 3.6    The benefits of scale
 

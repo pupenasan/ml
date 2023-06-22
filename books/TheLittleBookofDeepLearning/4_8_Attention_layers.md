@@ -1,4 +1,6 @@
-[<---   4_7_Skip_connections.md](4_7_Skip_connections.md)         [Зміст](README.md)          [ 4_9_Token_embedding.md   --->](4_9_Token_embedding.md) 
+|                                                           |                    |                                                          |
+| --------------------------------------------------------- | ------------------ | -------------------------------------------------------- |
+| [<---   4_7_Skip_connections.md](4_7_Skip_connections.md) | [Зміст](README.md) | [ 4_9_Token_embedding.md   --->](4_9_Token_embedding.md) |
 
 ## 4.8    Attention layers
 

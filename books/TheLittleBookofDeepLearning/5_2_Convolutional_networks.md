@@ -1,4 +1,6 @@
-[<---   5_1_Multi_Layer_Perceptrons.md](5_1_Multi_Layer_Perceptrons.md)         [Зміст](README.md)          [5_3_Attention_models.md    --->](5_3_Attention_models.md) 
+|                                                              |                    |                                                            |
+| ------------------------------------------------------------ | ------------------ | ---------------------------------------------------------- |
+| [<---   5_1_Multi_Layer_Perceptrons.md](5_1_Multi_Layer_Perceptrons.md) | [Зміст](README.md) | [5_3_Attention_models.md    --->](5_3_Attention_models.md) |
 
 ## 5.2    Convolutional networks
 

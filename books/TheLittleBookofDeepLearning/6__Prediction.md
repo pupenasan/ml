@@ -1,4 +1,6 @@
-[<---   5_3_Attention_models.md](5_3_Attention_models.md)         [Зміст](README.md)          [6_1_Image_denoising.md    --->](6_1_Image_denoising.md) 
+|                                                           |                    |                                                          |
+| --------------------------------------------------------- | ------------------ | -------------------------------------------------------- |
+| [<---   5_3_Attention_models.md](5_3_Attention_models.md) | [Зміст](README.md) | [6_1_Image_denoising.md    --->](6_1_Image_denoising.md) |
 
 # Part III Applications
 

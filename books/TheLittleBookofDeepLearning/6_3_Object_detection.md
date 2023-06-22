@@ -1,4 +1,6 @@
-[<---   6_2_Image_classification.md](6_2_Image_classification.md)         [Зміст](README.md)          [6_4_Semantic_segmentation.md    --->](6_4_Semantic_segmentation.md) 
+|                                                              |                    |                                                              |
+| ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ |
+| [<---   6_2_Image_classification.md](6_2_Image_classification.md) | [Зміст](README.md) | [6_4_Semantic_segmentation.md    --->](6_4_Semantic_segmentation.md) |
 
 ## 6.3    Object detection
 

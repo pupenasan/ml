@@ -1,4 +1,6 @@
-[<---   6_5_Speech_recognition.md](6_5_Speech_recognition.md)         [Зміст](README.md)          [7__Synthesis.md    --->](7__Synthesis.md) 
+|                                                              |                    |                                            |
+| ------------------------------------------------------------ | ------------------ | ------------------------------------------ |
+| [<---   6_5_Speech_recognition.md](6_5_Speech_recognition.md) | [Зміст](README.md) | [7__Synthesis.md    --->](7__Synthesis.md) |
 
 ## 6.6    Text-image representations
 

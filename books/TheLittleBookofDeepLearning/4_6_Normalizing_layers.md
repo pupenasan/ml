@@ -1,4 +1,6 @@
-[<---   4_5_Dropout.md](4_5_Dropout.md)         [Зміст](README.md)          [4_7_Skip_connections.md    --->](4_7_Skip_connections.md) 
+|                                         |                    |                                                            |
+| --------------------------------------- | ------------------ | ---------------------------------------------------------- |
+| [<---   4_5_Dropout.md](4_5_Dropout.md) | [Зміст](README.md) | [4_7_Skip_connections.md    --->](4_7_Skip_connections.md) |
 
 ## 4.6    Normalizing layers
 

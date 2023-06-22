@@ -1,4 +1,6 @@
-[<---   4_4_Pooling.md](4_4_Pooling.md)         [Зміст](README.md)          [4_6_Normalizing_layers.md    --->](4_6_Normalizing_layers.md) 
+|                                         |                    |                                                              |
+| --------------------------------------- | ------------------ | ------------------------------------------------------------ |
+| [<---   4_4_Pooling.md](4_4_Pooling.md) | [Зміст](README.md) | [4_6_Normalizing_layers.md    --->](4_6_Normalizing_layers.md) |
 
 ## 4.5    Dropout
 

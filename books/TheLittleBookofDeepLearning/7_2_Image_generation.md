@@ -1,4 +1,6 @@
-[<---   7_1_Text_generation.md](7_1_Text_generation.md)         [Зміст](README.md)          [The_missing_bits.md   --->](The_missing_bits.md) 
+|                                                         |                    |                                                   |
+| ------------------------------------------------------- | ------------------ | ------------------------------------------------- |
+| [<---   7_1_Text_generation.md](7_1_Text_generation.md) | [Зміст](README.md) | [The_missing_bits.md   --->](The_missing_bits.md) |
 
 ## 7.2    Image generation
 

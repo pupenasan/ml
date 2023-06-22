@@ -1,4 +1,6 @@
-[<---   4_2_Linear_layers.md](4_2_Linear_layers.md)         [Зміст](README.md)          [4_4_Pooling.md    --->](4_4_Pooling.md) 
+|                                                     |                    |                                          |
+| --------------------------------------------------- | ------------------ | ---------------------------------------- |
+| [<---   4_2_Linear_layers.md](4_2_Linear_layers.md) | [Зміст](README.md) | [4_4_Pooling.md    --->](4_4_Pooling.md) |
 
 ## 4.3    Activation functions
 

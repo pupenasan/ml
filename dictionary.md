@@ -44,4 +44,8 @@ feature (ознаки)
 
 channels (канали) 
 
-performance (продуктивність )
+performance (продуктивність 
+
+Sampling distribution (Вибірковий розподіл)
+
+sampling from the distribution (генерування )

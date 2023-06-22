@@ -1,4 +1,6 @@
-[<---   4_9_Token_embedding.md](4_9_Token_embedding.md)         [Зміст](README.md)          [5__Architectures.md    --->](5__Architectures.md) 
+|                                                         |                    |                                                    |
+| ------------------------------------------------------- | ------------------ | -------------------------------------------------- |
+| [<---   4_9_Token_embedding.md](4_9_Token_embedding.md) | [Зміст](README.md) | [5__Architectures.md    --->](5__Architectures.md) |
 
 ## 4.10    Positional encoding
 

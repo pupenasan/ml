@@ -1,4 +1,6 @@
-[<---   4_6_Normalizing_layers.md](4_6_Normalizing_layers.md)         [Зміст](README.md)          [4_8_Attention_layers.md    --->](4_8_Attention_layers.md) 
+|                                                              |                    |                                                            |
+| ------------------------------------------------------------ | ------------------ | ---------------------------------------------------------- |
+| [<---   4_6_Normalizing_layers.md](4_6_Normalizing_layers.md) | [Зміст](README.md) | [4_8_Attention_layers.md    --->](4_8_Attention_layers.md) |
 
 ## 4.7    Skip connections
 

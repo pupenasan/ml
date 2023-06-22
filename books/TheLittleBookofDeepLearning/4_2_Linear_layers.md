@@ -1,4 +1,6 @@
-[<---   4_1_The_notion_of_layer.md](4_1_The_notion_of_layer.md)         [Зміст](README.md)          [4_3_Activation_functions.md    --->](4_3_Activation_functions.md) 
+|                                                              |                    |                                                              |
+| ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ |
+| [<---   4_1_The_notion_of_layer.md](4_1_The_notion_of_layer.md) | [Зміст](README.md) | [4_3_Activation_functions.md    --->](4_3_Activation_functions.md) |
 
 ## 4.2    Linear layers
 

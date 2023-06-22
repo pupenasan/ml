@@ -1,4 +1,6 @@
-[<---   6__Prediction.md](6__Prediction.md)         [Зміст](README.md)          [6_2_Image_classification.md    --->](6_2_Image_classification.md) 
+|                                             |                    |                                                              |
+| ------------------------------------------- | ------------------ | ------------------------------------------------------------ |
+| [<---   6__Prediction.md](6__Prediction.md) | [Зміст](README.md) | [6_2_Image_classification.md    --->](6_2_Image_classification.md) |
 
 ## 6.1    Image denoising
 

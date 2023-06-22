@@ -1,4 +1,6 @@
-[<---   2_1_GPUs_TPUs_and_batches.md](2_1_GPUs_TPUs_and_batches.md)         [Зміст](README.md)          [3__Training.md    --->](3__Training.md) 
+|                                                              |                    |                                          |
+| ------------------------------------------------------------ | ------------------ | ---------------------------------------- |
+| [<---   2_1_GPUs_TPUs_and_batches.md](2_1_GPUs_TPUs_and_batches.md) | [Зміст](README.md) | [3__Training.md    --->](3__Training.md) |
 
 ## 2.2    Тензори
 

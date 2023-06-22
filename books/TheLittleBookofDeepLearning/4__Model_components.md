@@ -1,4 +1,6 @@
-[<---   3_6_The_benefits_of_scale.md](3_6_The_benefits_of_scale.md)         [Зміст](README.md)          [4_1_The_notion_of_layer.md    --->](4_1_The_notion_of_layer.md) 
+|                                                              |                    |                                                              |
+| ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ |
+| [<---   3_6_The_benefits_of_scale.md](3_6_The_benefits_of_scale.md) | [Зміст](README.md) | [4_1_The_notion_of_layer.md    --->](4_1_The_notion_of_layer.md) |
 
 # Part II Deep models
 

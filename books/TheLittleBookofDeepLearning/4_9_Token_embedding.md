@@ -1,4 +1,6 @@
-[<---   4_8_Attention_layers.md](4_8_Attention_layers.md)         [Зміст](README.md)          [4_10_Positional_encoding.md    --->](4_10_Positional_encoding.md) 
+|                                                           |                    |                                                              |
+| --------------------------------------------------------- | ------------------ | ------------------------------------------------------------ |
+| [<---   4_8_Attention_layers.md](4_8_Attention_layers.md) | [Зміст](README.md) | [4_10_Positional_encoding.md    --->](4_10_Positional_encoding.md) |
 
 ## 4.9    Token embedding
 

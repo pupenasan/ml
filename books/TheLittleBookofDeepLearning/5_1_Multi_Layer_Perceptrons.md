@@ -1,4 +1,6 @@
-[<---   5__Architectures.md](5__Architectures.md)         [Зміст](README.md)          [5_2_Convolutional_networks.md    --->](5_2_Convolutional_networks.md) 
+|                                                   |                    |                                                              |
+| ------------------------------------------------- | ------------------ | ------------------------------------------------------------ |
+| [<---   5__Architectures.md](5__Architectures.md) | [Зміст](README.md) | [5_2_Convolutional_networks.md    --->](5_2_Convolutional_networks.md) |
 
 ## 5.1    Multi-Layer Perceptrons
 

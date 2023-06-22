@@ -1,4 +1,6 @@
-[<---   7__Synthesis.md](7__Synthesis.md)         [Зміст](README.md)          [7_2_Image_generation.md    --->](7_2_Image_generation.md) 
+|                                           |                    |                                                            |
+| ----------------------------------------- | ------------------ | ---------------------------------------------------------- |
+| [<---   7__Synthesis.md](7__Synthesis.md) | [Зміст](README.md) | [7_2_Image_generation.md    --->](7_2_Image_generation.md) |
 
 ## 7.1    Text generation
 
