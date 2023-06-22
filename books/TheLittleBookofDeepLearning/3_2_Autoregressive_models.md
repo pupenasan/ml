@@ -35,7 +35,7 @@ The standard strategy to address this issue is to design a model $f$ that predic
 
 ![image-20230618131126811](media1/image-20230618131126811.png)
 
-Figure 3.1: An autoregressive model $f$, is **causal** if a time step $x_t$ of the input sequence can only modulate a predicted $y_s=\hat{P}(X_s|X_{t<s})$ for $s>t$.
+Figure 3.1: An autoregressive model $f$, is **causal** if a time step $x_t$ of the input sequence can only modulate a predicted $y_s=\hat{P}(X_s\mid X_{t<s})$ for $s>t$.
 
 The consequence is that the output at every position is the one that would be obtained if the input was only available up to before that position. Hence, training can be done by computing the output for a full training sequence, and maximizing the predicted probabilities of all the tokens of that same sequence, which boils down to minimizing the sum of the per-token **cross-entropy**.
 
