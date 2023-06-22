@@ -1,6 +1,8 @@
-# Машинне навчання 
+# [Машинне навчання](https://pupenasan.github.io/ml/books/TheLittleBookofDeepLearning/) 
 
 **для інженерів з систем керування**
+
+[До веб версії](https://pupenasan.github.io/ml/books/TheLittleBookofDeepLearning/)
 
 Це репозиторій створено для спрощення вивчення машинного навчання для інженерів-автоматників. У процесі занурення в цю тему буду викладувати тут матеріали в тему.
 
