@@ -16,7 +16,7 @@ tmp = await convertedTrainingData.toArray();
 console.log (tmp);
 ```
 
-## Тиждень 3.
+## Тиждень 3
 
 - Не намагатися виконувати в Google Colab, там нова версія Python яка не підтримує стару версію tensorflow.js, а перевірка завдання ну курсі Coursera приймає результати тільки зі старої версії tensorflow.js 2.2. Мої спроби поставити на Google Colab стару версію привели до відключення GPU в Colab .
 - проблеми та їх вирішення обговорюються [тут](https://community.deeplearning.ai/t/error-installing-tensorflow-2-2-on-colab-as-well-as-anaconda/287783/25) , ось запропонований варіант там:
